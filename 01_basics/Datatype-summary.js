@@ -30,15 +30,15 @@ const bigNumber = 34754575457n
 
  console.log(typeof myFunction);
  console.log(typeof MyObj);
-  console.log(typeof heros);
-   console.log(typeof bigNumber);
-    console.log(typeof refid);
-     console.log(typeof id);
-      console.log(typeof useremail);
-       console.log(typeof LoggedIn);
-        console.log(typeof outsidetemp);
-         console.log(typeof value2);
-          console.log(typeof value);
+ console.log(typeof heros);
+ console.log(typeof bigNumber);
+ console.log(typeof refid);
+ console.log(typeof id);
+ console.log(typeof useremail);
+ console.log(typeof LoggedIn);
+ console.log(typeof outsidetemp);
+ console.log(typeof value2)
+  console.log(typeof value);
 
 
 
