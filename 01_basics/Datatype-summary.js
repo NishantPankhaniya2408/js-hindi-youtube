@@ -36,6 +36,7 @@ const bigNumber = 34754575457n
  console.log(typeof id);
  console.log(typeof useremail);
  console.log(typeof LoggedIn);
+<<<<<<< HEAD
  console.log(typeof outsidetemp)
  console.log(typeof value2);
  console.log(typeof value);
@@ -68,6 +69,14 @@ const bigNumber = 34754575457n
 console.log(userTwo.email);
 
  
+=======
+ console.log(typeof outsidetemp);
+ console.log(typeof value2)
+  console.log(typeof value);
+
+
+
+>>>>>>> 7a89bb58a1a90a7e09ee9b56a2abd43c5a479238
 
 
 
