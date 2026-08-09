@@ -30,18 +30,44 @@ const bigNumber = 34754575457n
 
  console.log(typeof myFunction);
  console.log(typeof MyObj);
-  console.log(typeof heros);
-   console.log(typeof bigNumber);
-    console.log(typeof refid);
-     console.log(typeof id);
-      console.log(typeof useremail);
-       console.log(typeof LoggedIn);
-        console.log(typeof outsidetemp);
-         console.log(typeof value2);
-          console.log(typeof value);
+ console.log(typeof heros);
+ console.log(typeof bigNumber);
+ console.log(typeof refid);
+ console.log(typeof id);
+ console.log(typeof useremail);
+ console.log(typeof LoggedIn);
+ console.log(typeof outsidetemp)
+ console.log(typeof value2);
+ console.log(typeof value);
 
 
+ //************************************************************ */
 
+
+ // Stack (Primitive), Heap(Non-Primitive)
+
+
+ let studname = "Virat"
+
+ let studname1 = studname
+ anothername = "Rohit"
+ console.log(studname1);
+ console.log(anothername);
+ 
+
+ let userOne = {
+    email: "abc@gmail.com",
+    pass: 2503
+ }
+ 
+ let userTwo = userOne
+
+ userTwo.email = "xyz@gmail.com"
+
+ console.log(userOne.email);
+console.log(userTwo.email);
+
+ 
 
 
 
