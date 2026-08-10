@@ -38,3 +38,21 @@ const movies = ["Dhoom", "Kgf", "3 Idots", "26/11 Attack"];
 
 movies.splice(1, 2, "Borders");
 console.log(movies);
+
+
+// **************** Slice and Splice Porgram *******************//
+
+const mynum = [1, 2, 3, 4, 5, 6]
+console.log("A ", mynum);
+
+const mynum2 = mynum.slice(3, 6)
+console.log(mynum2);
+console.log("B ", mynum);
+
+
+const mynum3 = mynum.splice(1, 2)
+console.log( mynum3);
+console.log("C ",mynum);
+
+
+
