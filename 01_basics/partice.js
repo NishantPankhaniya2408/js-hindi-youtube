@@ -10,7 +10,7 @@ console.log(add(3));
 
 let arr = [1, 2, 3, 4];
 let result = arr.filter(n => n % 2 === 0);
-// result.push(6)
+ //result.push(6)
 console.log(result.length);
 
 // ************** Finding Missing Charcter *****************//
@@ -31,10 +31,10 @@ function findmissingcharcter(str) {
 console.log(findmissingcharcter("abdef"))
 
 
-// ******************* splice() Method
+// ******************* splice() Method ************************ //
 
 
 const movies = ["Dhoom", "Kgf", "3 Idots", "26/11 Attack"];
 
-movies.splice(1, 3, "Borders");
+movies.splice(1, 2, "Borders");
 console.log(movies);
