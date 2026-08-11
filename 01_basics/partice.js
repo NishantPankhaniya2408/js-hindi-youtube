@@ -54,5 +54,13 @@ const mynum3 = mynum.splice(1, 2)
 console.log( mynum3);
 console.log("C ",mynum);
 
+// ************************* Unshift and Pop *********************//
+
+let n = [1, 2, 3]
+n.unshift(0);
+n.pop();
+console.log(n.join('-'));
+
+
 
 
