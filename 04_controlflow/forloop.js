@@ -1,3 +1,7 @@
+// for loop is for genral counting/repetition
+// for.. of loop is for array/string values
+// for.. in loop is for object keys/properties
+
 // for loop with break and contuine in JS
 // Other name of loop is iteration 
 
